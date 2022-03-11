@@ -1,0 +1,412 @@
+/* HEADER */
+.header-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+header {
+  background-image: url(../images/Background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-bottom: 5px solid #0864b385;
+}
+
+.home-title {
+  position: absolute;
+  top: 25%;
+}
+
+.home-title .anim-title-2 {
+  display: none;
+  margin-top: 10px;
+  padding: 16px;
+  font-family: Itim, Serif;
+  font-size: 123%;
+  letter-spacing: 6px;
+  line-height: 30px;
+  text-shadow: 0 0 3px #000000b3;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #5f595985;
+  box-shadow: 0 0 6px 2px #00000073;
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.home-title .anim-title-img {
+  display: none;
+  position: absolute;
+  margin: -204px 669px auto;
+  width: 163px;
+  left: 69px;
+  height: auto;
+  opacity: 0;
+  animation: pulse 4s infinite;
+}
+
+.home-title .anim-title {
+  display: none;
+  font-size: 312%;
+  font-family: ArchitectsDaughter, Serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 3px #000000b3;
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.col-ms-12 .home-title {
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-style: oblique;
+  line-height: 38px !important;
+}
+
+.membres-container {
+  display: none;
+  padding: 23px 15px 0px 37px;
+  box-shadow: 0 0 10px 4px #9acd325e;
+  background-color: #9acd3285;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-animation-name: zoomInUp;
+  animation-name: zoomInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* HEADER END */
+/* Menu Scroll /* */
+.top-menu .active {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.top-menu {
+  display: none;
+  position: fixed;
+  margin: 0px auto;
+  padding: 15px 0 58px 26px;
+  width: 100%;
+  height: 0;
+  top: 0%;
+  bottom: 0;
+  right: 0px;
+  z-index: 99;
+  background-color: #000000b5;
+}
+
+.top-menu .container {
+  max-width: 100%;
+}
+
+.top-menu .container .row .col-md-8 {
+  position: relative;
+  margin: 0px auto 0 auto;
+}
+
+.top-menu .col-md-12 {
+  text-align: center;
+}
+
+.top-menu ul {
+  padding: 0px;
+  margin: -2px;
+}
+
+.top-menu ul li {
+  display: inline-block;
+  margin: 0 15px 0px 0;
+  list-style-type: none;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+.top-menu ul li a {
+  padding: 10px 25px 10px 25px;
+  border: 2px solid #332e2e5c;
+  box-shadow: 0px 0 8px 0px #ffffff87;
+  color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  background-color: #0c0a0a73;
+  transition: border 1s, opacity 1s, background-color 1s;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.top-menu ul li a:hover {
+  border: 2px solid #332e2e5c;
+  background-color: #0a080842;
+  opacity: 0.6;
+}
+
+.mini-top {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  z-index: 99;
+  width: 43px;
+  animation: pulse 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+/* Menu End Scroll /* */
+/* Menu /* */
+#login {
+  color: #ffffff;
+}
+
+.container-menu-m {
+  display: none;
+}
+
+.container-menu .active {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.container-menu {
+  display: none;
+  margin-top: -74px;
+  padding: 15px 0 59px 0;
+  width: 100%;
+  height: 12px;
+  background-color: #0000005c;
+  -webkit-animation-name: zoomInUp;
+  animation-name: zoomInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.container-menu .container {
+  max-width: 100%;
+}
+
+.container-menu .container .row .col-md-8 {
+  position: relative;
+  margin: 0px auto 0 auto;
+}
+
+.container-menu .col-md-12 {
+  text-align: center;
+}
+
+.container-menu ul {
+  padding: 0px;
+  margin: 0;
+}
+
+.container-menu ul li {
+  display: inline-block;
+  margin: 0 15px 0px 0;
+  list-style-type: none;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+.container-menu ul li a {
+  padding: 10px 25px 10px 25px;
+  border: 2px solid #332e2e5c;
+  box-shadow: 0px 0 8px 0px #ffffff87;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  background-color: #0c0a0a73;
+  transition: border 1s, opacity 1s, background-color 1s;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.container-menu ul li a:hover {
+  border: 2px solid #332e2e5c;
+  background-color: #0a080842;
+  opacity: 0.6;
+}
+
+.container-menu .active {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Menu END */   
+/* Menu Mobile /* */
+.container-menu-mobile {
+  padding: 15px 0 59px 0;
+  display: none;
+  width: 100%;
+  height: 12px;
+  background-color: #0000005c;
+  margin-top: -74px;
+}
+
+.container-menu-mobile .col-md-12 {
+  text-align: center;
+}
+
+.container-menu-mobile ul li {
+  display: flex !important;
+  margin: -2px 0 0 -23px !important;
+  list-style-type: none;
+  font-size: 26px;
+  align-content: start !important;
+  font-family: Volkhov;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.container-menu-mobile ul li .nav-link {
+  padding: 11px 15px 10px 25px !important;
+  border: 2px solid #332e2e5c;
+  box-shadow: 0px 0 8px 0px #ffffff87;
+  color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  background-color: #0c0a0a73;
+  transition: border 1s, opacity 1s, background-color 1s;
+}
+.container-menu-mobile ul li .nav-link:hover {
+  background-color: #0a080842;
+  opacity: 0.6;
+}
+.container-menu-mobile ul li .nav-link:hover:active {
+  background-color: #000000c7;
+  opacity: 1;
+}
+
+.active-mobile {
+  background-color: #2262a754 !important;
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.dropdown-menu {
+  background-color: #c0c0c094;
+  border-radius: 0 10px 0 10px;
+}
+
+.dropdown-item {
+  background-color: transparent;
+  color: #16181b;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-family: "Fira Sans", sans-serif;
+  transition: all 500ms;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  padding: 0.25rem 2.5rem;
+  color: #56595f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-item.active .dropdown-item:active {
+  background-color: #2262a754;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #2c2c2e75;
+}
+
+.btn-users {
+  padding: 10px 15px 10px 25px !important;
+  color: white !important;
+  cursor: pointer;
+  -webkit-transition-duration: 500ms;
+  transition: display 500ms;
+}
+
+.btn-index, .btn-news, .btn-jeux, .btn-forum, .btn-contact, .btn-dev, .btn-profil {
+  -webkit-transition-duration: 500ms;
+  transition: display 500ms;
+}
+
+.alert-anim {
+  display: none;
+  animation: pulse 6s;
+  animation-fill-mode: forwards;
+}
+
+.alert-perso {
+  z-index: 99999;
+  margin: 0 auto;
+  width: auto !important;
+  height: 50px !important;
+  position: fixed;
+  bottom: 0;
+  top: 8px;
+  left: 34%;
+  right: 34%;
+  display: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab";
+  border-radius: 3px;
+  box-shadow: 0 0 14px 5px #d1ecf1;
+}
+
+/* Menu Mobile END */   
+.membres img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  opacity: 0.8;
+  box-shadow: 0 0 7px 2px #ffffff;
+}
+
+.mbr-c {
+  margin: 3px;
+}
+
+.mbr-c p {
+  margin: 0px 0 0 11px;
+  display: inline-block;
+  position: relative;
+  color: #350303ba;
+  text-shadow: 0 0 5px #5a5050;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-family: "Oleo Script Swash Caps";
+}
+
+.mbr-c .p2 {
+  position: relative;
+  top: -26px;
+  left: 60px;
+}
+
+.p-title-1 {
+  top: -12px;
+}

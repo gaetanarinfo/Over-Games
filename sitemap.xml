@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://gaetan-seigneur.store/</loc>
+  <lastmod>2020-11-22T16:39:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/404</loc>
+  <lastmod>2020-11-22T16:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/inscription</loc>
+  <lastmod>2020-11-22T16:39:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/profil</loc>
+  <lastmod>2020-12-03T16:00:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/dev</loc>
+  <lastmod>2020-12-06T14:30:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/contact</loc>
+  <lastmod>2020-12-10T08:55:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/news</loc>
+  <lastmod>2020-12-22T15:33:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/profil-public</loc>
+  <lastmod>2021-01-12T15:33:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gaetan-seigneur.store/discord</loc>
+  <lastmod>2021-02-06T15:33:10+05:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>

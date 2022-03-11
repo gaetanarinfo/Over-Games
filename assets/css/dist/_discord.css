@@ -1,0 +1,32 @@
+.discord_box {
+  opacity: 0.4;
+  transition: all 350ms;
+}
+
+.discord_box:hover {
+  opacity: 1;
+}
+
+.discord_btn {
+  display: none;
+  transition: all 350ms;
+}
+
+.p_discord {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Red Hat Text", serif;
+}
+
+.img_discord {
+  border-radius: 6px;
+  box-shadow: 0 0 3px 0px #00000073;
+  opacity: 0.9;
+}
+
+.content_discord {
+  font-family: "Volkhov";
+  font-size: 17px;
+  color: #313538;
+  letter-spacing: 1px;
+}

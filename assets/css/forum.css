@@ -1,0 +1,556 @@
+.breadcrumb {
+  background-color: #21252924;
+  box-shadow: 0 0 4px 0px #0000007d;
+}
+
+.breadcrumb-item.active {
+  color: #36363c;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.breadcrumb-item a {
+  font-size: 16px;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #36363c;
+  text-decoration: none;
+  transition: all 500ms !important;
+}
+.breadcrumb-item a:hover a:hover {
+  color: #161619;
+}
+
+tr {
+  border-top: hidden;
+}
+
+th {
+  border-top: hidden;
+}
+
+.fo-cat {
+  width: 69px;
+}
+
+.fo-admin {
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0px;
+}
+
+.fo-td {
+  padding: 17px 0px 17px 0px !important;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.fo-tr {
+  background-color: #b9b6b6;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #484a4c;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  transition: all 500ms;
+}
+a:hover {
+  color: #1e1f1f;
+}
+
+.btn-fo-add {
+  border: 1px solid #37393c6b;
+  box-shadow: 0px 0 12px 1px #37393c38;
+  color: #f9e6e6 !important;
+  padding: 10px 15px 8px 15px;
+  text-align: left;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #37393ca3;
+  letter-spacing: 2px;
+}
+.btn-fo-add:hover {
+  border: 1px solid #151617a3;
+  box-shadow: 0px 0 12px 1px #15161738;
+  color: #f9e6e6 !important;
+  background-color: #151617a3;
+}
+
+.btn-fo-add i {
+  font-size: 13px;
+}
+
+.btn-fo-comment {
+  border: 1px solid #75171352;
+  box-shadow: 0px 0 12px 1px #75171352;
+  color: #f9e6e6 !important;
+  padding: 10px 15px 8px 15px;
+  text-align: left;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #751713cc;
+  letter-spacing: 2px;
+}
+.btn-fo-comment:hover {
+  border: 1px solid #ac221e52;
+  box-shadow: 0px 0 12px 1px #ac221e52;
+  color: #f9e6e6 !important;
+  background-color: #9e211ccc;
+}
+
+.fo-icone {
+  display: inline-block;
+  padding: 0 0 0 7px;
+  position: relative;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.fo-content {
+  display: block;
+  position: relative;
+  min-height: 334px !important;
+  padding: 12px 14px;
+  background-color: #b5b3b3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.fo-content-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.fo-content-comment {
+  min-height: 362px !important;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.fo-border {
+  border-left: 2px solid #989898;
+}
+
+.fo-author {
+  margin: 0 15em 0.6em 0;
+  padding: 4px 0 5px 0;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+.fo-author i {
+  font-size: 12px;
+}
+
+.fo-writing {
+  min-height: 3em;
+  overflow: hidden;
+  line-height: 1.4em;
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  color: #333333;
+  padding-bottom: 1px;
+}
+
+.fo-reply {
+  padding: 0rem 1rem !important;
+}
+
+.fo-avatar img {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+  border: 2px solid #8683831c;
+  box-shadow: 0 0 6px 1px #65626230;
+}
+
+.fo-pseudo {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+}
+
+.fo-rang {
+  display: block;
+  position: relative;
+  padding: 10px 7px 8px 7px;
+  width: 156px;
+  font-size: 13px;
+  color: #9c0c0c;
+  border-radius: 4px;
+  box-shadow: 0 0 8px #969595;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  background: -moz-linear-gradient(180deg, #b5b5b5 0%, #c3c3c3 100%);
+  background: -webkit-linear-gradient(180deg, #b5b5b5 0%, #c3c3c3 100%);
+  background: linear-gradient(180deg, #b5b5b5 0%, #c3c3c3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b5b5b5",endColorstr="#c3c3c3",GradientType=1);
+}
+
+.fo-rang i {
+  font-size: 13px;
+}
+
+.fo-mess {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+}
+
+.fo-reg {
+  color: #008000;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 0 0 1px #008000;
+}
+
+#reply {
+  display: none;
+  transition: all 500ms !important;
+}
+
+.btn-fo-resolved {
+  border: 2px solid #0b8c0b;
+  box-shadow: 0px 0 4px 0px #12b112a6;
+  color: #f9e6e6 !important;
+  padding: 4px 17px 4px 17px;
+  text-align: center;
+  font-family: "Itim", sans-serif;
+  border-radius: 3px;
+  background-color: #198e19a8;
+  letter-spacing: 2px;
+}
+.btn-fo-resolved:hover {
+  border: 2px solid #0c690c;
+  box-shadow: 0px 0 4px 0px #0c690c;
+  color: #f9e6e6 !important;
+  background-color: #0c690c;
+}
+
+.btn-fo-resolved i {
+  font-size: 15px;
+}
+
+select {
+  font-family: "FontAwesome", "Roboto Slab", serif !important;
+}
+
+.btn-fo-delete {
+  border: 2px solid #aa0f0f;
+  box-shadow: 0px 0 4px 0px #aa0f0f;
+  color: #f9e6e6 !important;
+  padding: 5px 15px 4px 17px;
+  text-align: center;
+  font-family: "Itim", sans-serif;
+  border-radius: 3px;
+  background-color: #aa0f0f;
+  letter-spacing: 2px;
+}
+.btn-fo-delete:hover {
+  border: 2px solid #740a0a;
+  box-shadow: 0px 0 4px 0px #740a0a;
+  color: #f9e6e6 !important;
+  background-color: #740a0a;
+}
+
+.btn-fo-edit {
+  border: 2px solid #faed3a;
+  box-shadow: 0px 0 4px 0px #faed3a;
+  color: #777676 !important;
+  padding: 4px 17px 4px 17px;
+  text-align: center;
+  font-family: "Itim", sans-serif;
+  border-radius: 3px;
+  background-color: #faed3a;
+  letter-spacing: 2px;
+}
+.btn-fo-edit:hover {
+  border: 2px solid #d1c62f;
+  box-shadow: 0px 0 4px 0px #d1c62f;
+  color: #777676 !important;
+  background-color: #d1c62f;
+}
+
+.fo-epingle {
+  float: right;
+}
+
+.fo-epingle i {
+  color: #4095af;
+  transition: all 500ms;
+}
+.fo-epingle i:hover {
+  color: #135265;
+}
+
+.fo-epingle-a {
+  float: right;
+  color: #7a150e;
+}
+
+.border-epingle {
+  border-left: 3px solid #941b1bd6;
+  border-top: 3px solid #941b1bd6;
+  border-bottom: 3px solid #941b1bd6;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.border-epingle-right {
+  border-right: 3px solid #941b1bd6;
+  border-top: 3px solid #941b1bd6;
+  border-bottom: 3px solid #941b1bd6;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.btn-epingle {
+  cursor: pointer;
+}
+
+.fo-rang-2 {
+  padding: 10px 8px 8px 0px;
+}
+
+.fo-stat {
+  display: block;
+  position: relative;
+  border-bottom: 1px solid #5d5d5d;
+}
+
+.fo-stats {
+  display: block;
+  position: relative;
+  margin: 9px auto;
+  font-size: 11px;
+  font-family: "Volkhov", sans-serif;
+}
+
+.fo-stat p {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Volkhov", sans-serif;
+  margin: 0 0 3px 0;
+}
+
+.fo-admin-a {
+  color: red;
+  font-size: 11px;
+}
+.fo-admin-a:hover {
+  color: #651010;
+}
+
+.fo-modo-a {
+  color: #28a745;
+  font-size: 11px;
+}
+.fo-modo-a:hover {
+  color: #135422;
+}
+
+.fo-date {
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin: 0 0 7px 0;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.emo {
+  margin: 4px 4px 10px 4px;
+}
+
+.btn-help {
+  background-color: transparent !important;
+  width: 19px;
+  height: 21px;
+  font-size: 12px;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+.fo-head {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.fo-sujet {
+  display: block;
+  position: relative;
+  margin: 0 0 7px 0;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.fo-pagin-a {
+  padding: 0 4px;
+  margin: 0 2px;
+  width: 15px !important;
+  height: 15px !important;
+  font-weight: normal;
+  font-size: 0.9em;
+  border-radius: 0px !important;
+  border-right: 1px solid #a3a2a2 !important;
+}
+
+#color, #color-text {
+  display: inline-block;
+  position: relative;
+  margin: 0px 7px 0 0px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  padding: 0px 0px;
+  border-radius: 0px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  transition: all 500ms !important;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.search-box {
+  display: block;
+  position: relative;
+}
+
+.btn-search {
+  height: 35px;
+  width: 35px;
+  padding: 0 0;
+  border-radius: 5px;
+  margin-left: -4px;
+  background-color: transparent;
+}
+
+#search {
+  display: none;
+}
+
+.result-search {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Roboto Slab", sans-serif;
+  letter-spacing: 1px;
+  width: 276px;
+}
+
+.result-search i {
+  font-size: 13px;
+}
+
+.result-empty {
+  display: block;
+  position: relative;
+  margin: 15px auto 15px auto;
+  text-align: center;
+  color: #801818;
+  font-size: 22px;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  letter-spacing: 1px;
+}
+
+.d-inline-table {
+  display: inline-table;
+}
+
+/*# sourceMappingURL=forum.css.map */

@@ -1,0 +1,80 @@
+.breadcrumb {
+  background-color: #21252924;
+  box-shadow: 0 0 4px 0px #0000007d;
+}
+
+.breadcrumb-item.active {
+  color: #36363c;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.breadcrumb-item a {
+  font-size: 16px;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #36363c;
+  text-decoration: none;
+  transition: all 500ms !important;
+}
+.breadcrumb-item a:hover a:hover {
+  color: #161619;
+}
+
+tr {
+  border-top: hidden;
+}
+
+th {
+  border-top: hidden;
+}
+
+.fo-cat {
+  width: 69px;
+}
+
+.fo-td {
+  padding: 17px 0px 17px 0px !important;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.fo-tr {
+  background-color: #b9b6b6;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #484a4c;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  transition: all 500ms;
+}
+a:hover {
+  color: #1e1f1f;
+}
+
+.btn-fo-add {
+  border: 1px solid #37393c6b;
+  box-shadow: 0px 0 12px 1px #37393c38;
+  color: #f9e6e6 !important;
+  padding: 10px 15px 8px 15px;
+  text-align: left;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #37393ca3;
+  letter-spacing: 2px;
+}
+.btn-fo-add:hover {
+  border: 1px solid #151617a3;
+  box-shadow: 0px 0 12px 1px #15161738;
+  color: #f9e6e6 !important;
+  background-color: #151617a3;
+}

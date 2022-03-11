@@ -1,0 +1,15 @@
+ErrorDocument 404 /404
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteRule ^forum_cat_([0-9]+)_([0-9]+)$   /forum_categorie?forum_id=$1&forum_id_cat=$2 [L]
+RewriteRule ^forum_cat_([0-9]+)_([0-9]+)_([0-9]+)$   /forum_categorie?forum_id=$1&forum_id_cat=$2&p=$3 [L]
+RewriteRule ^forum_sujet_([0-9]+)_([0-9]+)_([0-9]+)$   /forum_sujet?forum_id=$1&forum_id_cat=$2&forum_id_cat_sujet=$3 [L]
+RewriteRule ^profil_public_([a-z0-9\-]+)$   /profil-public?pseudo=$1 [L]
